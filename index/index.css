@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kadwa:wght@400;700&family=Lato:wght@300&family=Poppins:wght@200&family=Tsukimi+Rounded:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins', sans-serif;
+}
+body{
+    overflow-x:hidden ;
+}
+.nav ul{
+    font-size: 20px;
+    font-weight: normal;
+}
+.header{
+    background: linear-gradient(100.3deg, #C5F8FF 0%, #E8FFE8 100%);
+    width: 100%;
+    height: 70vh;
+
+}
+.img_1{
+    margin: 0 5%;
+}
+.Theme{
+    background: linear-gradient(100.3deg, #C5F8FF 0%, #E8FFE8 100%);
+    width: 100%;
+    height: 20vh;
+}
+.Tres{
+    font-size: 40px;
+    font-weight: lighter;
+    height: 50%;
+}
+.middle{
+    font-size: 40px;
+    font-weight: bold;
+    color: #09376B;
+}
+.objective{
+    margin: 5% 10%;
+    font-weight: bold;
+    color: #09376B;
+}
+.objective h4{
+    font-size: 40px;
+}
+.border{
+    width:100vw;
+    min-height: 20vh;
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.objfont{
+    color: #298CFF;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.objfontp{
+    font-weight: normal;
+    width: 90%;
+}
+.Ideate_1{
+    margin: 5% 10%;
+}
+
+.top h3{
+    font-weight: bold;
+    color: #09376B;
+} 
+.titleT{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2% 0;
+    color:#298CFF;
+    ;
+}
+.img-t{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1% 0;
+    color:#09376B;
+}
+.img-aa{
+    width: 90%;
+    height: 100%;
+}
+.img-p{
+    width: 90%;
+    font-size: 20px;
+    font-weight: normal;
+    color:#74748A ;
+}
+.footer{
+    background-color:#F2F4FF;
+    width: 100%;
+    height: 10vh;
+}
+.footer-t{
+    padding-top:2% ;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 32px;
+}
+@media screen and (max-width: 700px) {
+    .main-img{
+        width: 100%;
+        height: 10vh;
+    }
+    .Tres{
+        font-size: 30px;
+        height: 40%;
+    }
+    .middle{
+        font-size:20px;
+    }
+    .border{
+        height: 10%;
+    }
+}
+
