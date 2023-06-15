@@ -36,6 +36,11 @@ body{
     font-weight: bold;
     color: #09376B;
 }
+.bg-img1{
+    height:90vh; 
+    width: 85%; 
+    margin:0 8%;
+}
 .objective{
     margin: 5% 0 0 10%;
     font-weight: bold;
