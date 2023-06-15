@@ -7,10 +7,10 @@
     font-family: Poppins', sans-serif;
 }
 body{
-    overflow-x:hidden ;
+    overflow-x:hidden;
 }
 .nav ul{
-    font-size: 20px;
+    font-size: 1em;
     font-weight: normal;
 }
 .header{
@@ -25,39 +25,43 @@ body{
 .Theme{
     background: linear-gradient(100.3deg, #C5F8FF 0%, #E8FFE8 100%);
     width: 100%;
-    height: 20vh;
+    height: 30%;
 }
 .Tres{
-    font-size: 40px;
+    font-size: 3em;
     font-weight: lighter;
-    height: 50%;
 }
 .middle{
-    font-size: 40px;
+    font-size: 1em;
     font-weight: bold;
     color: #09376B;
 }
 .objective{
-    margin: 5% 10%;
+    margin: 5% 0 0 10%;
     font-weight: bold;
     color: #09376B;
 }
-.objective h4{
-    font-size: 40px;
+.theme-title{
+    font-size: 2.5em;
+}
+.obj-row{
+    width: 100%;
 }
 .border{
-    width:100vw;
+    width: 100vw;
     min-height: 20vh;
     border-radius: 15px;
     margin-right: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 .objfont{
+    overflow: hidden;
     color: #298CFF;
-    font-size: 15px;
+    font-size: 1em;
     text-transform: uppercase;
 }
 .objfontp{
+    font-size: 1em;
     font-weight: normal;
     width: 90%;
 }
@@ -71,14 +75,14 @@ body{
 } 
 .titleT{
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 2% 0;
     color:#298CFF;
     ;
 }
 .img-t{
-    font-size: 20px;
+    font-size:1.5em;
     font-weight: bold;
     margin: 1% 0;
     color:#09376B;
@@ -89,7 +93,7 @@ body{
 }
 .img-p{
     width: 90%;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: normal;
     color:#74748A ;
 }
@@ -105,6 +109,9 @@ body{
     line-height: 32px;
 }
 @media screen and (max-width: 700px) {
+    body{
+        overflow-x: hidden;
+    }
     .main-img{
         width: 100%;
         height: 10vh;
