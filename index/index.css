@@ -132,7 +132,7 @@ body{
         height: 10%;
     }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:500px) {
     .bg-img1{
     
         height: 50vh;
