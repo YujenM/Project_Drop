@@ -137,6 +137,25 @@ body{
     margin-left:40% ;
     margin-top: 10%;
 }
+.home{
+    margin: auto;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 5%;
+}
+.images_1{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+.abt-text{
+
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    width:50%;
+
+}
 
 @media screen and (max-width: 700px) {
     body{
@@ -174,4 +193,19 @@ body{
     .innerfont{
         margin-left:30% ;
     }
+}
+@media screen and (max-width:900px) {
+    .abt-text,.images_1{
+        width: 100%;
+        float: none;
+        margin-top: 5%;
+    }
+    .showcase:nth-child(2) .abt-text {
+        order: -1;
+    }
+
+    .showcase:nth-child(2) .images_1 {
+        order: -2;
+    }
+    
 }
