@@ -109,6 +109,36 @@ body{
     font-style: normal;
     line-height: 32px;
 }
+.Kathmandu{
+    width: 100%;
+}
+.sizeK{
+    margin:5% 10% 0 10%;
+}
+.outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.inner{
+    background:linear-gradient(100.3deg, #C5F8FF 0%, #E8FFE8 100%);
+    width:50%;
+    height:90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+}
+.weatherimg{
+    margin-left:40% ;
+    margin-top: 10%;
+}
+
 @media screen and (max-width: 700px) {
     body{
         overflow-x: hidden;
@@ -132,5 +162,17 @@ body{
     .bg-img1{
     
         height: 50vh;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .inner{
+        width: 90%;
+
+}
+}
+@media screen and (max-width:768px) {
+    .innerfont{
+        margin-left:30% ;
     }
 }

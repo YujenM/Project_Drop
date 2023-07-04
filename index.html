@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="Website Icon" type="png" href="images/logo.png"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
@@ -39,6 +40,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#IDEATE" style="color: #2B2B2B;">IDEATE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Rainfall" style="color: #2B2B2B;">Rainfall</a>
                             </li>
                         </ul>
                     </div>
@@ -160,9 +164,55 @@
                     </div>
                 </div>
             </section>
+            <section id="Rainfall">
+                <div class="Kathmandu">
+                    <div class="sizeK">
+                        <h3 class="theme-title">Rainfall in Kathmandu</h3>
+                        <p>Kathmandu, the capital city of Nepal, generally experiences a monsoon climate with a significant amount of rainfall during the summer months. On average, Kathmandu receives around 1,400 millimeters (55 inches) of rainfall per year. The rainfall distribution can vary throughout the year, with the monsoon season (June to September) typically experiencing the highest rainfall. As for how much rainfall you can save, it depends on the water conservation methods and infrastructure in place. Rainwater harvesting is a common practice in many areas to collect and store rainwater for various purposes, such as irrigation, drinking water, and household use. The amount of rainfall you can save would depend on factors like the size of the catchment area, the efficiency of the collection system, and the demand for water. Local water management authorities or experts in Kathmandu would be able to provide more specific information regarding rainwater harvesting and its potential for water conservation in the area.</p>
+                    </div>
+                </div>
+                <div class="outer">
+                    <div class="inner">
+                        <div class="weather-container">
+                            <p id="location" class="text-center" style="font-weight: bold; font-size: 1.5em;">Thapathali</p>
+                            <p class="text-center" style="font-size: 1.5em;">Kathmandu,Nepal</p>
+                            <div class="weather-container">
+                            <!-- Existing elements... -->
+                            <img class="weatherimg" id="icon" alt="Weather Icon" src="images/Vector (2).png">
+                            <!-- <img id="icon" alt="Weather Icon" /> -->
+                        </div>
+                        <p id="temperature" class="text-center mt-3" style="font-size: 4em;">27℃</p>
+                        <p id="description" class="text-center" style="font-size: 1.5em;">Broken Clouds</p>
+                        <div class="row innerfont " >
+                            <div class="col-md-6">
+                                <div class="row" style="font-size: 1.5em;">
+                                    <div class="col-lg-3 col-md-6">
+                                        <img src="images/humidity.png">
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <p id="humidity">68%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row" style="font-size: 1.5em;">
+                                    <div class="col-lg-3 col-md-6">
+                                        <img src="images/wind.png">
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <p id="wind">12Kmph</p>
+                                    </div>
+                                
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div class="footer">
                 <h4 class="text-center footer-t">PROJECT BY TEAM DROP</h4>
             </div>
-    </div>
+        </div>
+    <script src="script.js"></script>
 </body>
 </html>
